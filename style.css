@@ -1,0 +1,123 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+#cabezera {
+    color: lightgreen;
+    font-size: x-large;
+    text-align: center;
+}
+
+.column {
+    border: 6px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+    font-size: x-large;
+    height: 120px;
+    width: 120px;
+    color: lightgreen;
+}
+
+.column p {
+    padding-top: 10%;
+}
+
+.información {
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#gifdiv {
+    text-shadow: 3px 0px 0px black,
+        0px 3px 0px black,
+        -3px 0px 0px black,
+        0px -3px 0px black;
+    background-image: url('Imagenesportafolio/Portada.gif');
+    border-radius: 30px;
+    height: 640px;
+    text-align: center;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(5, 16.5%);
+    padding-left: 20%;
+}
+
+.column img {
+    height: 100px;
+    width: 100px;
+}
+
+.educación {
+    background-image: url('Imagenesportafolio/habilidades.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    height: 600px;
+}
+
+.experiencia {
+    background-image: url('Imagenesportafolio/empleo.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    background-size: 100%;
+    height: 600px;
+}
+
+.social {
+    background-image: url('Imagenesportafolio/redessociales2.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    background-size: 100%;
+    height: 600px;
+}
+
+.conocimientos {
+    background-image: url('Imagenesportafolio/depxc3c-2c74dc75-552f-4b74-9d49-a01ec4c8ea90.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    background-size: 100%;
+    height: 600px;
+}
+
+h2 {
+    border: 6px solid black;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 1%;
+}
+
+.form {
+    background-color: lightskyblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 30px;
+}
+
+.globo {
+    background-color: rgb(189, 218, 255);
+    border: 6px solid black;
+    border-radius: 18px;
+    max-width: 400px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 1%;
+    text-align: center;
+}
+
+.trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
